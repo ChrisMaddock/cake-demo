@@ -1,3 +1,5 @@
+var target = Argument("target", "Default");
+
 var HELLO = "Hello";
 
 Task("Default")
@@ -8,4 +10,4 @@ void SayHi()
     Information(HELLO);
 }
 
-RunTarget(Default);
+RunTarget(target);
