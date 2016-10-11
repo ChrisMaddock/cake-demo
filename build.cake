@@ -8,4 +8,4 @@ void SayHi()
     Information(HELLO);
 }
 
-RunTarget(target);
+RunTarget(Default);
